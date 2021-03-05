@@ -14,7 +14,7 @@ const formatNumber = n => {
   return n[1] ? n : `0${n}`
 }
 const rnd = (start, end) => {
-  return Math.floor(Math.random() * (end - start) + start)
+  return Math.round(Math.random() * (end - start) + start)
 }
 module.exports = {
   formatTime,
