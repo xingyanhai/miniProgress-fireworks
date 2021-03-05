@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <!-- canvas.wxml -->
+ <canvas class="canvas" type="2d" id="myCanvas"></canvas>
+ <view>hello word</view>
+</view>
