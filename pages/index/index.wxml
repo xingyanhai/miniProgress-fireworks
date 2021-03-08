@@ -2,5 +2,7 @@
 <view class="container">
  <!-- canvas.wxml -->
  <canvas class="canvas" type="2d" id="myCanvas"></canvas>
+ <canvas type="2d" style="width: 500px;height: 500px;position:fixed;top:9999px" id="hide-canvas" />
+
  <view>hello word</view>
 </view>
